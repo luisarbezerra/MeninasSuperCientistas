@@ -230,7 +230,10 @@ strong {
 
 .wrapper {
     background: #fff;
-    padding-bottom: 0px
+    padding-bottom: 0px;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
 }
 
 .mtb-50 {
@@ -391,7 +394,7 @@ footer .social a {
 }
 
 footer {
-    background: #282828;
+    background: black;
     color: #7C7C7C
 }
 
@@ -1120,7 +1123,6 @@ footer .menu li a:hover {
 }
 
 .navbar-brand {
-    color: #ccc !important;
     font-size: 20px;
     line-height: 20px;
     font-weight: 700;
@@ -1128,11 +1130,6 @@ footer .menu li a:hover {
 
 .navbar-brand img {
     max-width: 200px
-}
-
-.navbar-light .navbar-brand,
-.navbar-light .navbar-toggler {
-    color: #EB586F !important
 }
 
 .navbar-toggle .icon-bar {
@@ -1195,7 +1192,7 @@ footer .menu li a:hover {
 .navbar-light .navbar-nav>.active>a,
 .navbar-light .navbar-nav>.active>a:focus,
 .navbar-light .navbar-nav>.active>a:hover {
-    color: #EB586F;
+    color: #EB586F !important;
     background-color: transparent
 }
 
@@ -4759,11 +4756,13 @@ background-color: #fff;
     color: #f38181;
 }
 
-.navbar-brand:hover {
+.navbar-light .navbar-brand,
+.navbar-light .navbar-toggler {
     color: #f16464;
 }
 
-;
+.navbar-light .navbar-brand:hover {
+    color: #f38181
 }
 
 .navbar-default .navbar-brand:hover,
@@ -5425,8 +5424,11 @@ section#contato .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 10px 0;
     text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer span.copyright {
@@ -5567,4 +5569,8 @@ body {
     line-height: 70px;
     border-radius: 4px;
     text-align: center
+}
+
+.google-forms {
+    display: inline;
 }
