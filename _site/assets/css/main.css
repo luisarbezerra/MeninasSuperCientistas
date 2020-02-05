@@ -238,10 +238,6 @@ strong {
     margin-bottom: 50px
 }
 
-#content {
-    padding-bottom: 60px
-}
-
 .mb-60 {
     margin-bottom: 60px
 }
@@ -765,7 +761,15 @@ footer .menu li a:hover {
 
 .btn-xl {
     font-size: 20px;
-    padding: 9px 10px
+    padding: 9px 10px text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(241, 100, 100);
+    padding: 20px 40px;
+    border-color: rgb(241, 100, 100);
+    border-radius: 3px;
 }
 
 .btn-lg {
@@ -1111,11 +1115,6 @@ footer .menu li a:hover {
     color: #fff
 }
 
-.titulo-navbar {
-    width: 100%;
-    color: white !important;
-}
-
 .navbar-fixed-top {
     border-radius: 0
 }
@@ -1125,7 +1124,6 @@ footer .menu li a:hover {
     font-size: 20px;
     line-height: 20px;
     font-weight: 700;
-    padding: 20px 15px
 }
 
 .navbar-brand img {
@@ -3016,20 +3014,22 @@ address i {
 }
 
 .form-control {
-    color: #444;
-    background: #f7f7f7;
-    font-weight: 400;
-    letter-spacing: 0px;
-    border: 1px solid #ddd;
-    border-radius: 0;
-    margin-bottom: 30px;
-    padding: 10px 20px;
-    min-height: 50px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none
+    display: block;
+    width: 100%;
+    height: 43px;
+    font-size: 15px;
+    line-height: 1.42857;
+    color: rgb(248, 167, 134);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset;
+    padding: 10px 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(220, 228, 236);
+    border-image: initial;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
 
 .form-control:focus {
@@ -3042,34 +3042,6 @@ address i {
 
 .input-group input {
     font: normal normal normal 14px/1 FontAwesome, "Rubik", sans-serif
-}
-
-#contactForm .form-control {
-    color: #444;
-    background: #f7f7f7;
-    font-weight: 400;
-    letter-spacing: 0px;
-    border: 1px solid #ddd;
-    border-radius: 0;
-    margin-bottom: 30px;
-    padding: 10px 20px;
-    min-height: 50px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none
-}
-
-#contactForm .form-control:focus {
-    border-color: #EB586F
-}
-
-#contactForm textarea {
-    max-width: 100%;
-    min-height: 130px !important;
-    max-height: 211px;
-    margin-bottom: 30px
 }
 
 ::-webkit-input-placeholder {
@@ -4523,12 +4495,6 @@ img {
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    overflow-x: hidden;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333
-}
-
 ;
 }
 
@@ -4676,7 +4642,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #f16464
+    border-color: #f16464;
+    opacity: .65;
 }
 
 ;
@@ -4696,7 +4663,8 @@ background-color: #fff;
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #f16464
+    border-color: #f16464;
+    background: #f16464;
 }
 
 ;
@@ -4744,7 +4712,6 @@ background-color: #f8a786
 .btn-xl.disabled,
 .btn-xl[disabled],
 fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
 .btn-xl[disabled]:hover,
 fieldset[disabled] .btn-xl:hover,
 .btn-xl.disabled:focus,
@@ -4756,7 +4723,13 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #f16464
+    opacity: 100;
+    background: #f38181;
+}
+
+.btn-xl.disabled:hover {
+    background: #f16464;
+    opacity: 100;
 }
 
 ;
@@ -4780,9 +4753,13 @@ background-color: #fff;
     margin-bottom: 0;
 }
 
-.navbar-default .navbar-brand {
+.navbar-brand {
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-    color: #f16464
+    color: #f38181;
+}
+
+.navbar-brand:hover {
+    color: #f16464;
 }
 
 ;
@@ -5351,7 +5328,7 @@ aside.clients img {
 
 section#contato {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/science-img.png');
+    background-image: url(/assets/img/science-img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
