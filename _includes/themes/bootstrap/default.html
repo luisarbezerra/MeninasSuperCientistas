@@ -86,7 +86,6 @@ lantoniotrento@gmail.com
   {% endif %}
 
   <!-- JS includes -->
-
   <script src="{{ BASE_PATH }}/assets/js/jquery.min.js"></script>
   <script src="{{ BASE_PATH }}/assets/js/jquery.nav.js"></script>
   <script src="{{ BASE_PATH }}/assets/js/owl.carousel.min.js"></script>
@@ -103,7 +102,8 @@ lantoniotrento@gmail.com
 
   <!-- ********************* Grads SCRIPTING ******************************-->
   <!--Custom script loaded by children page-->
-  {% if page.js %}<script src="{{ BASE_PATH }}/assets/js/{{ page.js }}"></script>{% endif %}
+  {% if page.js %}
+  <script src="{{ BASE_PATH }}/assets/js/{{ page.js }}"></script>{% endif %}
 
 
 
