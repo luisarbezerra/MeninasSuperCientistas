@@ -5598,3 +5598,7 @@ blockquote p {
 .midias-text {
     text-align: left;
 }
+
+.footer-col {
+    width: auto;
+}
