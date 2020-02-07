@@ -5647,3 +5647,7 @@ blockquote p {
     width: 100%;
     display: block;
   }
+
+  .ultimo-patro {
+    margin-bottom: 50px
+  }
