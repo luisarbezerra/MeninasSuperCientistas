@@ -9,7 +9,6 @@ https://heliumjk.github.io/buttons
 https://heliumjk.github.io/cards
 https://heliumjk.github.io/components
 https://heliumjk.github.io/contact
-https://heliumjk.github.io/contato
 https://heliumjk.github.io/equipe
 https://heliumjk.github.io/features
 https://heliumjk.github.io/footers
