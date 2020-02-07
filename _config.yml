@@ -154,6 +154,16 @@ organizadoras:
     pic: 2
     position: IMECC-UNICAMP
     type: Organizadora
+  
+  - name: Esther Colombini
+    pic: 7
+    position: IC-UNICAMP
+    type: Professora Convidada
+
+  - name: Sandra Avila
+    pic: 8
+    position: IC-UNICAMP
+    type: Professora Convidada
 
   - name: Luísa Ribeiro Bezerra
     pic: 5
