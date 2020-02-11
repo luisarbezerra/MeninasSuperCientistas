@@ -1,11 +1,11 @@
 
-https://heliumjk.github.io/404
-https://heliumjk.github.io/contato
-https://heliumjk.github.io/equipe
-https://heliumjk.github.io/historia
-https://heliumjk.github.io/
-https://heliumjk.github.io/inscricoes
-https://heliumjk.github.io/midia
-https://heliumjk.github.io/monitoras
-https://heliumjk.github.io/programacao
-https://heliumjk.github.io/sitemap.txt
+/404
+/contato
+/equipe
+/historia
+/
+/inscricoes
+/midia
+/monitoras
+/programacao
+/sitemap.txt

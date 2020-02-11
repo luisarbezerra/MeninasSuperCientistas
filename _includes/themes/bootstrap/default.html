@@ -26,24 +26,24 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!--Helium css-->
-  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/animate.css">
-  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/jasny-bootstrap.min.css">
-  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/main.css">
-  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/owl.carousel.css">
-  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/owl.theme.css">
-  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/responsive.css">
-  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/scrolling-nav.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/animate.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jasny-bootstrap.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/owl.carousel.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/owl.theme.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/responsive.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/scrolling-nav.css">
 
   <!-- CSS loaded by the children page -->
   {% if page.css %}
-  <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/custom/{{ page.css }}" />{% endif %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/custom/{{ page.css }}" />{% endif %}
 
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page.tagline }}">
-  <meta property="og:image" content="{{ BASE_PATH }}/assets/img/big/{{ page.img }}">
-  <meta property="og:url" content="{{ BASE_PATH }}">
+  <meta property="og:image" content="{{ site.baseurl }}/assets/img/big/{{ page.img }}">
+  <meta property="og:url" content="{{ site.baseurl }}">
   <meta name="twitter:card" content="summary_large_image">
 
   <!--[if IE]>
@@ -51,9 +51,9 @@
 			 var console = { log: function() {} };
 		</script>
 	<![endif]-->
-  <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate"
+  <link href="{{ site.baseurl }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate"
     title="Sitewide ATOM Feed">
-  <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate"
+  <link href="{{ site.baseurl }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate"
     title="Sitewide RSS Feed">
   <!-- Google ADS mobile block-->
   {% if site.google_ad_client %}
@@ -89,24 +89,24 @@
   </script>
 
 
-  <script src="{{ BASE_PATH }}/assets/js/jquery.min.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/jquery.nav.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/owl.carousel.min.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/form-validator.min.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/contact-form-script.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/jasny-bootstrap.min.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/jquery.mixitup.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/jquery.countTo.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/jquery.easing.min.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/main.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/scrolling-nav.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/tether.min.js"></script>
-  <script src="{{ BASE_PATH }}/assets/js/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.nav.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/owl.carousel.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/form-validator.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/contact-form-script.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jasny-bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.mixitup.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.countTo.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.easing.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/scrolling-nav.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/tether.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 
   <!-- ********************* Grads SCRIPTING ******************************-->
   <!--Custom script loaded by children page-->
   {% if page.js %}
-  <script src="{{ BASE_PATH }}/assets/js/{{ page.js }}"></script>{% endif %}
+  <script src="{{ site.baseurl }}/assets/js/{{ page.js }}"></script>{% endif %}
 
 
 
