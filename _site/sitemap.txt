@@ -9,9 +9,3 @@ https://heliumjk.github.io/midia
 https://heliumjk.github.io/monitoras
 https://heliumjk.github.io/programacao
 https://heliumjk.github.io/sitemap.txt
-
-https://heliumjk.github.io/docs/2017/10/08/helium-jekyll-theme-markdown-examples
-https://heliumjk.github.io/lessons/2017/03/20/make-your-jekyll-website-amazing
-https://heliumjk.github.io/lessons/2017/02/15/helium-theme-syntax-highlight-example
-https://heliumjk.github.io/lessons/2017/01/17/testing-locally-helium-jekyll
-https://heliumjk.github.io/lessons/2017/01/01/hello-world
