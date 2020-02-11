@@ -1,7 +1,5 @@
 
 https://heliumjk.github.io/404
-https://heliumjk.github.io/about-sample
-https://heliumjk.github.io/atom.xml
 https://heliumjk.github.io/contato
 https://heliumjk.github.io/equipe
 https://heliumjk.github.io/historia
@@ -10,7 +8,6 @@ https://heliumjk.github.io/inscricoes
 https://heliumjk.github.io/midia
 https://heliumjk.github.io/monitoras
 https://heliumjk.github.io/programacao
-https://heliumjk.github.io/rss.xml
 https://heliumjk.github.io/sitemap.txt
 
 https://heliumjk.github.io/docs/2017/10/08/helium-jekyll-theme-markdown-examples
