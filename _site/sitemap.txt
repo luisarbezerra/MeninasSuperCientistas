@@ -2,6 +2,7 @@
 https://heliumjk.github.io/404
 https://heliumjk.github.io/about-sample
 https://heliumjk.github.io/atom.xml
+https://heliumjk.github.io/contato
 https://heliumjk.github.io/equipe
 https://heliumjk.github.io/historia
 https://heliumjk.github.io/

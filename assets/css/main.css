@@ -231,9 +231,9 @@ strong {
 .wrapper {
     background: #fff;
     padding-bottom: 0px;
-    position: relative;
     width: 100%;
     min-height: 100%;
+    margin-bottom: -60px;
 }
 
 .mtb-50 {
@@ -388,9 +388,13 @@ strong {
     padding: 25px 0
 }
 
+footer .social {
+    vertical-align: sub;
+}
+
 footer .social a {
     font-size: 14px;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 footer {
@@ -5426,9 +5430,9 @@ section#contato .text-danger {
 footer {
     padding: 10px 0;
     text-align: right;
-    position: absolute;
     bottom: 0;
     width: 100%;
+    height: 60px;
 }
 
 footer span.copyright {
@@ -5650,4 +5654,24 @@ blockquote p {
 
   .ultimo-patro {
     margin-bottom: 50px
+  }
+
+  .patro-img {
+    min-width: 40%;
+  }
+
+  .col-12 {
+    flex: 0 0 50%;
+  }
+
+  .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
+    color: #f16464;
+  }
+
+  .icones-projeto{
+    place-content: center;
+  }
+
+  .icones-projeto-espaco {
+    margin: 0 15px;
   }
