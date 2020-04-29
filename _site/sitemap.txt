@@ -1,0 +1,11 @@
+
+/404
+/contato
+/equipe
+/historia
+/
+/inscricoes
+/midia
+/monitoras
+/programacao
+/sitemap.txt

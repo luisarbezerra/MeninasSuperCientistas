@@ -1,0 +1,23 @@
+<!-- navbar-default -->
+<nav class="navbar navbar-toggleable-sm navbar-light bg-default navbar-fixed-top">
+
+  <div class="container">
+
+    <a class="navbar-brand" href="./">Meninas SuperCientistas</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbar1">
+
+      <ul class="navbar-nav">
+        <a class="nav-link" href="./">Inicio</a>
+        {% assign pages_list = site.pages %}
+        {% assign group = 'navigation' %}
+        {% include JB/pages_list %}
+        <a class="nav-link" href="./contato">Contato</a>
+      </ul>
+    </div>
+  </div>
+</nav>
